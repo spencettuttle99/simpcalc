@@ -1,0 +1,72 @@
+
+
+#body {
+
+	background: grey;
+
+}
+
+.title {
+	position: fixed;
+	color: black;
+	text-align: center;
+	border: 2px solid black;
+	width: 600px;
+	height: 75px;
+	top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #b3ffff;
+    line-height: 68px;
+}
+
+.wrapper {
+	border: 3px solid black;
+	border-radius: 25px;
+    position: fixed;
+    top: 25em;
+    left: 50%;
+    width: 300px;
+    height: 400px;
+    transform: translate(-50%, -50%);
+    background: black;
+    box-shadow:10px 10px 5px #888888;
+}
+
+.screen {
+	width: 98.5%;
+	border-radius: 20px;
+	height: 75px;
+	text-align: right;
+	background: #adbed8;
+	border-bottom: 2px solid black;
+	font-size: 30px;
+	line-height: 70px;
+	margin-top: 2px;
+	margin-right: 2px;
+	margin-left: 2px;
+}
+
+.button {
+	height: 63px;
+	border: 1px solid black ;
+	border-radius: 25px;
+	background: white;
+}
+
+.text1{
+	text-align: center;
+	line-height: 25px;
+}
+
+.button_wrapper {
+	margin: 2px;
+}
+
+.highlight {
+	background: orange;
+}
+
+.press {
+	background: #10ff00;
+}
